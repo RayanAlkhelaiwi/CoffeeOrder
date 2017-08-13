@@ -1,10 +1,25 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Just Java</string>
+    <string name="NameEditTextHeader">Name:</string>
+    <string name="NameHint">Enter your name here</string>
+    <string name="ToppingsHeader">Toppings</string>
+    <string name="WhippedCreamCheckBox">Whip Cream ($1 Extra)</string>
+    <string name="ChocolateCheckBox">Chocolate ($2 Extra)</string>
     <string name="QuantityHeader">Quantity</string>
     <string name="QuantityValue">0</string>
     <string name="OrderButtonName">Order</string>
-    <string name="PriceHeader">Price</string>
-    <string name="PriceValue">$0</string>
     <string name="MinusButton">-</string>
     <string name="PlusButton">+</string>
+    <string name="decToast">Sorry, you cannot have less than 0 cups of coffee</string>
+    <string name="incToast">Sorry, you cannot have more than 100 cups of coffee</string>
+    <string name="activityTitle">Coffee Order</string>
+    <string name="coffeeOrderIntentSubject">Coffe order to: <xliff:g id="nameSubject" example="Ryan">%s</xliff:g></string>
+    <string name="nameCustomerOrder">Name: <xliff:g id="nameCustomer" example="Ryan">%s</xliff:g></string>
+    <string name="quantityOrder">Quantity: </string>
+    <string name="wpOrder">Add whip cream: </string>
+    <string name="chocoOrder">Add chocolate: </string>
+    <string name="totalOrder">Total: </string>
+    <string name="thankYouOrder">Thank you!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>
